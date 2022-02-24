@@ -1,0 +1,13 @@
+git init
+git config --global push.default simple
+git add *
+git add .gitignore
+git status
+git config --global user.email "youremail@umich.edu"
+git config --global user.name "Your X. Name"
+git config --global credential.helper cache   # Optional but convienent
+git config --global credential.helper 'cache --timeout=604800'  # Optional but convienent
+git commit -m "first commit" 
+git remote add origin https://github.com/--your-github-acct--/
+git push -u origin main
+(enter id and password for git)
